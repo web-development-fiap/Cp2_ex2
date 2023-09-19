@@ -69,7 +69,20 @@ export default function InserirProduto(props) {
               required
             />
           </div>
-          
+          <div>
+            <label htmlFor="img">URL da Imagem</label>
+            <input
+              type="text"
+              name="img"
+              id="img"
+              value={novoProduto.img}
+              onChange={handleChange}
+            />
+          </div>
+          <div>
+            <button type="button" onClick={adicionarProduto}>
+              Inserir Produto
+            </button>
           </div>
         </form>
       </div>
