@@ -58,6 +58,17 @@ export default function InserirProduto(props) {
               required
             />
           </div>
+          <div>
+            <label htmlFor="preco">Preço</label>
+            <input
+              type="number"
+              name="preco"
+              id="preco"
+              value={novoProduto.preco}
+              onChange={handleChange}
+              required
+            />
+          </div>
           
           </div>
         </form>
