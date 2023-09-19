@@ -47,6 +47,18 @@ export default function InserirProduto(props) {
               required
             />
           </div>
+          <div>
+            <label htmlFor="desc">Descrição</label>
+            <input
+              type="text"
+              name="desc"
+              id="desc"
+              value={novoProduto.desc}
+              onChange={handleChange}
+              required
+            />
+          </div>
+          
           </div>
         </form>
       </div>
